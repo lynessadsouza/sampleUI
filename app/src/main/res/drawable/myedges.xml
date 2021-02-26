@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- we define background color -->
+    <solid android:color="#66c2ff" />
+
+    <!-- we define border color and thick -->
+
+
+
+
+    <!-- we define corner radius, note that radius can be different for each corner -->
+
+    <gradient
+        android:startColor="#6792F9"
+
+        android:endColor="#9CEBFB"
+        android:angle="0"
+        />
+
+    <corners
+
+        android:topLeftRadius="60dp"
+        android:topRightRadius="60dp"
+
+        android:bottomLeftRadius="60dp"
+        android:bottomRightRadius="60dp">
+    </corners>
+
+
+</shape>
