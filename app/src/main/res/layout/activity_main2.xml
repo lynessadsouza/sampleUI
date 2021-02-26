@@ -9,6 +9,17 @@
     tools:context=".MainActivity2">
 
 
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center_horizontal"
+        android:text="Haciendo click  en el botón estás de acuedo
+con los términos y condiciones y
+política de privacidad"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="200dp"
@@ -33,19 +44,19 @@
             android:text="ACCEDE CON 129 TOKENS" />
 
 
-        <com.google.android.material.textview.MaterialTextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
-            android:gravity="center_horizontal"
-            android:text="Haciendo click  en el botón estás de acuedo
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center_horizontal"
+        android:text="Haciendo click  en el botón estás de acuedo
 con los términos y condiciones y
 política de privacidad"
-            android:textAlignment="center"
-            android:textColor="@color/white"
-            android:textStyle="bold" />
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
 
-    </LinearLayout>
+</LinearLayout>
 
 
 </RelativeLayout>
